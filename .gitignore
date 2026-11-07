@@ -5,6 +5,21 @@
 
 # dotenv files
 .env
+.env.*
+!.env.example
+
+# Local credentials, secrets, and machine-specific configuration
+**/.git-credentials
+**/.credentials
+**/.credentials.*
+**/credentials
+**/credentials.*
+**/*.credentials
+**/*.credentials.*
+**/*secrets*.json
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+**/appsettings.*.local.json
 
 # User-specific files
 *.rsuser
@@ -480,3 +495,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Local HTTPS development certificates
+certificates/
+*.p12
+*.pem
+*.key

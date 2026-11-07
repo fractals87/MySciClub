@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/">
+    <Project Path="src/backend/MySciClub.Api.csproj" />
+    <Project Path="src/backend/Application/MySciClub.Application.csproj" />
+    <Project Path="src/backend/Domain/MySciClub.Domain.csproj" />
+    <Project Path="src/backend/Infrastructure/MySciClub.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MySciClub.Domain.Tests/MySciClub.Domain.Tests.csproj" />
+    <Project Path="tests/MySciClub.Application.Tests/MySciClub.Application.Tests.csproj" />
+    <Project Path="tests/MySciClub.Infrastructure.Tests/MySciClub.Infrastructure.Tests.csproj" />
+    <Project Path="tests/MySciClub.Api.Tests/MySciClub.Api.Tests.csproj" />
+  </Folder>
+</Solution>

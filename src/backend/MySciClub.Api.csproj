@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <UserSecretsId>8d58251c-3756-4d1b-babe-9b0e696dc87e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Application\**\*.cs;Domain\**\*.cs;Infrastructure\**\*.cs" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+    <ProjectReference Include="Application\MySciClub.Application.csproj" />
+    <ProjectReference Include="Infrastructure\MySciClub.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
